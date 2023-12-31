@@ -1,0 +1,1 @@
+let navbar=document.querySelector(".navbar");document.querySelector("#menu-btn").onclick=()=>{navbar.classList.toggle("active")},$(document).ready(function(){$(".navbar a").click(function(){var a=$(this).attr("href"),b=$(a).offset().top;return $("html, body").animate({scrollTop:b},800),!1})});
